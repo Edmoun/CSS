@@ -1,0 +1,23 @@
+#titulo{
+    color:navajowhite
+}
+p{
+    color: blue;
+}
+
+div p{
+    font-size: 24px;
+}
+
+div h1, div h2{
+    color: darkgreen;
+    font-size: 50px;
+}
+
+/*Comentario css*/
+
+.parrafo{
+    color: royalblue;
+    font-size: 50px;
+    border: 10px red outset;
+}
