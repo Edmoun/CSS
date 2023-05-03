@@ -17,7 +17,19 @@ div h1, div h2{
 /*Comentario css*/
 
 .parrafo{
-    color: royalblue;
+    color: purple;
     font-size: 50px;
     border: 10px red outset;
+    border-width: 1cm;
+    border-radius: 1cm;
+    background-color: antiquewhite;
+    background-image: url("carro.jpg");
+}
+
+body {
+    background-color: burlywood;
+    background-image: url("carro.jpg");
+    background-size: 200px 400px;
+    background-repeat: no-repeat;
+    background-position: center;
 }
