@@ -33,3 +33,19 @@ body {
     background-repeat: no-repeat;
     background-position: center;
 }
+
+a:link {
+    color: blue;
+}
+
+a:visited {
+    color: yellow
+}
+
+a:hover {
+    color:red
+}
+
+a:active {
+    color: rosybrown;
+}
