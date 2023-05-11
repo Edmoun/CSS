@@ -1,0 +1,99 @@
+*{
+    box-sizing: border-box;
+    padding: 0;
+    margin: 0;
+}
+
+body {
+   font-size: 22px;
+   line-height: 2;
+   background-color: black;
+   color: white;
+}
+
+.contenedor{
+    max-width: 960px;
+    margin: 100px auto;
+    padding: 10px;
+    display: grid;
+    grid-template-columns: repeat(3, 200px);
+    grid-template-rows: repeat(3, 150px);
+}
+
+.parte{
+    background-color: tomato;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    font-weight: bold;
+    padding: 22px;
+    border: bisque 1px solid;
+    border-radius: 2em;
+    border-color: green;
+    box-shadow: 0 0 10em;
+    text-align: center;
+    font-size: 30px;
+}
+
+h1{
+    text-align: center;
+    color: rosybrown;
+    padding: 20px;
+    margin: 20px auto;
+    background-color:gold;
+    padding: 1px;
+    border-radius: 20%;
+}
+.contenedor:hover{
+    color:red
+}
+.parte:hover{
+    color: black;
+}
+
+.parte-1{
+    background-color: orange;
+    border-radius: 0%;
+}
+
+.parte-2{
+    background-color: blue;
+    border-radius:4%;
+}
+
+.parte-3{
+    background-color: green;
+    border-radius: 6%;
+}
+
+.parte-4{
+    background-color: gold;
+    border-radius: 10%;
+}
+
+.parte-5{
+    background-color: pink;
+    border-radius: 16%;
+}
+
+.parte-6{
+    background-color: violet;
+    border-radius: 22%;
+}
+
+.parte-7{
+    background-color: aqua;
+    border-radius: 25;
+}
+
+.parte-8{
+    background-color: peru;
+    border-radius: 28%;
+}
+
+.parte-9{
+    background-color: gray;
+    border-radius: 32%;
+}
+
+h1:hover{
+    color: blue;
+}
