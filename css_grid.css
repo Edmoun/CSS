@@ -16,8 +16,9 @@ body {
     margin: 100px auto;
     padding: 10px;
     display: grid;
-    grid-template-columns: repeat(3, 200px);
-    grid-template-rows: repeat(3, 150px);
+    grid-template-columns: auto auto auto;
+    grid-auto-flow: row;
+    grid-template-rows: auto auto auto;
 }
 
 .parte{
@@ -51,47 +52,38 @@ h1{
 
 .parte-1{
     background-color: orange;
-    border-radius: 0%;
 }
 
 .parte-2{
     background-color: blue;
-    border-radius:4%;
 }
 
 .parte-3{
     background-color: green;
-    border-radius: 6%;
 }
 
 .parte-4{
     background-color: gold;
-    border-radius: 10%;
 }
 
 .parte-5{
     background-color: pink;
-    border-radius: 16%;
 }
 
 .parte-6{
     background-color: violet;
-    border-radius: 22%;
 }
 
 .parte-7{
     background-color: aqua;
-    border-radius: 25;
 }
 
 .parte-8{
     background-color: peru;
-    border-radius: 28%;
 }
 
 .parte-9{
     background-color: gray;
-    border-radius: 32%;
 }
 
 h1:hover{
