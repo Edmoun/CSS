@@ -1,0 +1,117 @@
+.contenedor{
+    max-width: 960px;
+    margin: 100px auto;
+    padding: 10px;
+    display: grid;
+    grid-template-columns: auto auto auto;
+    column-gap: 20px;
+    row-gap: 20px;
+    grid-template-rows: 1fr 2fr;
+    box-shadow: 0 0 20px 1px rgb(0, 0, 0, 0.3);
+}
+.hijos{
+    background-color: tomato;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    font-weight: bold;
+    padding: 22px;
+    border: bisque 1px solid;
+    border-radius: 2em;
+    border-color: green;
+    box-shadow: 0 0 10em;
+    text-align: center;
+    font-size: 30px;
+}
+
+.hijos:hover{
+    color: chartreuse;
+}
+
+.parte-1{
+    background-color: yellow;
+}
+
+.parte-2{
+    background-color: turquoise;
+}
+
+.parte-3{
+    background-color: red;
+}
+
+.parte-4{
+    background-color: orange;
+    grid-column: 1/4;
+}
+
+.parte-5{
+    background-color: teal;
+    grid-column: 1/3;
+}
+
+.parte-6{
+    background-color: rgb(224, 64, 197);
+}
+
+.parte-7{
+    background-color: rgb(64, 224, 112);
+}
+
+.parte-8{
+    background-color: indianred;
+    grid-column: 2/4;
+}
+
+.parte-9{
+    background-color: gray;
+    grid-column: 1/4;
+}
+@media screen and (max-width:600px){
+    body{
+        background-color:brown ;
+    }
+    .contenedor{
+        display: grid;
+        grid-template-columns: repeat(2, 1fr);
+    }
+    
+    .parte-3{
+        grid-column: 1/2;
+    }
+    
+    .parte-4{
+        grid-column: 2/3;
+    }
+    
+    .parte-5{
+        grid-column: 1/3;
+    }
+    
+    .parte-6{
+        grid-column: 1/2;
+    }
+    .parte-8{
+        grid-column: 1/3;
+    }
+    
+    .parte-9{
+        grid-column: 1/3;
+    }
+}
+
+@media screen and (max-width:550px){
+    body{
+        background-color: blueviolet;
+    }
+    .contenedor{
+        display: grid;
+        grid-template-columns: 1fr;
+    }
+
+    .parte-1{
+        grid-column: 1/3;
+    }
+    .parte-2, .parte-3, .parte-4, .parte-5, .parte-6, .parte-7, .parte-8, .parte-9{
+        grid-column: 1/3;
+    }
+
+}

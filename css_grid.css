@@ -17,8 +17,9 @@ body {
     padding: 10px;
     display: grid;
     grid-template-columns: auto auto auto;
-    grid-auto-flow: row;
-    grid-template-rows: auto auto auto;
+    column-gap: 20px;
+    row-gap: 20px;
+   
 }
 
 .parte{
@@ -52,7 +53,6 @@ h1{
 
 .parte-1{
     background-color: orange;
-    grid-area: 1/1/span 3/span 3;
 }
 
 .parte-2{
