@@ -27,9 +27,22 @@ h1:hover{
 
 .contenedor{
     background-color: cornflowerblue;
-    margin: 20px auto;
+    margin: 100px auto;
     padding: 22px auto;
-    width: 900px;
-    height: 300px;
-    border: 1em red solid;
+    max-width: 960px;
+    display: grid;
+    grid-template-columns: auto auto auto ;
+}
+
+.imagen{
+    background-color: tomato;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    font-weight: bold;
+    padding: 22px;
+    border: bisque 1px solid;
+    border-radius: 1em;
+    border-color: green;
+    box-shadow: 0 0 10em;
+    text-align: center;
+    font-size: 30px;
 }
